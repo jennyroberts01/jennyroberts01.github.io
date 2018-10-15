@@ -34,7 +34,7 @@ of those sections to manage the look and feel of the site. */
 
 section.intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 40px;
     text-align: center;
     background: #fff;
@@ -42,31 +42,75 @@ section.intro-section {
 
 .publications-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 15px;
     text-align: center;
     background: #eee;
 }
 
 .fieldwork-section {
     min-height: 100%;
-    padding-top: 35px;
+    padding-top: 15px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
+.useful-section {
     min-height: 100%;
-    padding-top: 35px;
+    padding-top: 15px;
     text-align: center;
     background: #eee;
 }
 
-.img-responsive.viewportheight {
+.img-responsive{
 	max-height: 83%;
-	margin: auto;
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
 }
+@media(min-width: 48em){
+    .img-responsive{
+    max-height: 83%;
+	margin-left:10px;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    }
+}
+
 
 .container.extrapadding {
 	padding-bottom: 10px;
 }
+
+.square{
+    height: 100%;
+    width: 220px;
+    margin-left:auto;
+     margin-right:auto;
+       margin-top:10px;
+       margin-bottom:10px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    Background-color: #B1C8ED  ;/* Your Color */
+}
+@media(min-width: 48em){
+    .square{
+    height: 100%;
+    width: 220px;
+    margin-left:auto;
+     margin-right:10px;
+       margin-top:10px;
+       margin-bottom:10px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    Background-color: #B1C8ED  ;/* Your Color */
+    }
+}
+div.b {
+    text-align: left;
+}
+
 
