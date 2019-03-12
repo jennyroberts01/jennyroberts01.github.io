@@ -7,17 +7,19 @@
 body {
     width: 100%;
     min-height: 100%;
-    padding-bottom: 30px;
-}
+    padding-bottom: 0px;
+	background: white;
+  	margin: 0;
+    font-family: 'Karla'}
 
 html {
     width: 100%;
     min-height: 100%;
 }
 
-@media(min-width:767px) {
+@media(min-width:990px) {
     .navbar {
-        padding: 20px 0;
+        padding: 5px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -34,34 +36,40 @@ of those sections to manage the look and feel of the site. */
 
 section.intro-section {
     height: 100%;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 10px;
     text-align: center;
     background: #fff;
+    margin: 0px
 }
 
 .publications-section {
     height: 100%;
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
     background: #eee;
+    margin: 0px
 }
 
 .fieldwork-section {
     min-height: 100%;
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
     background: #fff;
+    margin: 0px
 }
+
 
 .useful-section {
     min-height: 100%;
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
     background: #eee;
+    margin: 0px
 }
 
 .img-responsive{
+	border-radius: 15px;
 	max-height: 83%;
 	margin-left:auto;
     margin-right:auto;
@@ -70,15 +78,48 @@ section.intro-section {
 }
 @media(min-width: 48em){
     .img-responsive{
-    max-height: 83%;
-	margin-left:10px;
+    border-radius: 15px;
+    max-height: 53%;
+	margin-left:0px;
     margin-right:auto;
     margin-top:10px;
     margin-bottom:10px;
     }
 }
 
+.img-responsive2{
+	max-height: 83%;
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+@media(min-width: 48em){
+    .img-responsive2{
+    max-height: 83%;
+	margin-left:0px;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    }
+}
 
+.img-responsive3{
+	max-height: 83%;
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+@media(min-width: 48em){
+    .img-responsive2{
+    max-height: 83%;
+	margin-left:0px;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    }
+}
 .container.extrapadding {
 	padding-bottom: 10px;
 }
@@ -93,12 +134,14 @@ section.intro-section {
     text-align: left;
     padding-top: 10px;
     padding-left: 10px;
+    border-radius: 15px;
     Background-color: #B1C8ED  ;/* Your Color */
 }
 @media(min-width: 48em){
     .square{
     height: 100%;
     width: 220px;
+    border-radius: 15px;
     margin-left:auto;
      margin-right:10px;
        margin-top:10px;
@@ -114,3 +157,26 @@ div.b {
 }
 
 
+ br2 {
+    line-height: 5px;
+ }
+ 
+ .bottom-left {
+  position: absolute;
+  bottom: 12px;
+  left: 35px;
+}
+
+
+ .bottom-left2 {
+ width:100%;
+    height:120%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: white;
+}
