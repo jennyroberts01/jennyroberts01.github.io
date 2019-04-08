@@ -72,21 +72,7 @@ echo $_SESSION['instituteErr'] . "<br>" ;
 	
 if (empty($nameErr) AND empty($emailErr) AND empty($instituteErr) AND empty($SNErr)  ){
 
-	$sender = 'jennyroberts01@gmail.com';
-	$recipient = 'jenny.roberts@thermofisher.com';
 
-	$subject = "php mail test";
-	$message = "php test message";
-	$headers = 'From:' . $sender;
-
-if (mail($recipient, $subject, $message, $headers))
-{
-    echo "Message accepted";
-}
-else
-{
-    echo "Error: Message not accepted";
-}
       
 }else {
 header("Location: index.php");}
